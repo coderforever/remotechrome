@@ -4,7 +4,7 @@ $(function(){
 		//当用户停止说话时，语音识别将结束
 		rec.continuous=true;
 		//
-		rec.interimResults=true;
+		rec.interimResults=false;
 		//语言
 		rec.lang="cmn-Hans-CN";
 		rec.start();
