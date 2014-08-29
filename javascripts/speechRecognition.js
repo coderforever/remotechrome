@@ -24,7 +24,4 @@ $(function(){
 			console.log(event);
 		};
 	}
-	else{
-		alert("fuck");
-	}
 });
