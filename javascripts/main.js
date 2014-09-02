@@ -1,4 +1,8 @@
 $(function(){
+	var Functions={
+		"保护色":function(){}
+	};
+
 	if(window.webkitSpeechRecognition){
 		var rec=new webkitSpeechRecognition();
 		//当用户停止说话时，语音识别将结束

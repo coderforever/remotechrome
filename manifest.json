@@ -9,7 +9,7 @@
   {
     "matches":["*://*/*"],
     "css":["stylesheets/style.css"],
-    "js":["javascripts/jquery-1.11.1.min.js","javascripts/speechRecognition.js"]
+    "js":["javascripts/jquery-1.11.1.min.js","javascripts/main.js"]
   }
   ]
 }
