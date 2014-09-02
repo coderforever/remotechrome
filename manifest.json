@@ -1,15 +1,15 @@
 {
-  "name": "ChromeÒ£¿ØÆ÷",
+  "name": "Chromeé¥æ§å™¨",
   "version": "1.0",
-  "description": "ÊÇÒ»¸öChromeÉÏµÄ²å¼ş£¬ÄÜ¹»¸ù¾İÓÃ»§¶ÔÂó¿Ë·çËµµÄÖ¸Áî£¬½øĞĞÏàÓ¦µÄ²Ù×÷¡£",
+  "description": "æ˜¯ä¸€ä¸ªChromeä¸Šçš„æ’ä»¶ï¼Œèƒ½å¤Ÿæ ¹æ®ç”¨æˆ·å¯¹éº¦å…‹é£è¯´çš„æŒ‡ä»¤ï¼Œè¿›è¡Œç›¸åº”çš„æ“ä½œã€‚",
   "browser_action": {
     "default_icon": "images/icon.png"
   },
   "content_scripts":[
-	{
-		"matches":["*://*/*"],
-		"css":["stylesheets/style.css"],
-		"js":["javascripts/jquery-1.11.1.min.js","javascripts/speechRecognition.js"]
-	}
+  {
+    "matches":["*://*/*"],
+    "css":["stylesheets/style.css"],
+    "js":["javascripts/jquery-1.11.1.min.js","javascripts/speechRecognition.js"]
+  }
   ]
 }
