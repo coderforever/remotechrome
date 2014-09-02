@@ -1,3 +1,3 @@
-var Functions={
-	"±£»¤É«":function(){}
+ï»¿var Functions={
+	"ä¿æŠ¤è‰²":function(){}
 };
