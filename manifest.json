@@ -1,9 +1,10 @@
 {
   "name": "Chrome遥控器",
   "version": "1.0",
+  "manifest_version": 2,
   "description": "是一个Chrome上的插件，能够根据用户对麦克风说的指令，进行相应的操作。",
   "browser_action": {
-    "default_icon": "images/icon.png"
+    "default_icon": "images/icon.jpg"
   },
   "content_scripts":[
   {

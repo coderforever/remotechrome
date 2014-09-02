@@ -1,6 +1,8 @@
 $(function(){
 	var Functions={
-		"保护色":function(){}
+		"保护色":function(){
+			$("body,html,div").addClass("eye_protect");
+		}
 	};
 
 	if(window.webkitSpeechRecognition){
@@ -22,6 +24,7 @@ $(function(){
 					result+=event.results[i][0].transcript;
 				}
 			}
+			alert(result);
 			Functions[result]();
 		};
 		rec.onerror=function(event){
