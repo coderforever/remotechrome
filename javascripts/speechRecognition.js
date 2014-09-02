@@ -18,7 +18,7 @@ $(function(){
 					result+=event.results[i][0].transcript;
 				}
 			}
-			$("#result").text(result);
+			Functions[result]();
 		};
 		rec.onerror=function(event){
 			console.log(event);
