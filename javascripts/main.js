@@ -1,8 +1,11 @@
 $(function(){
+	//各个函数
+	var protect_eye=function(){
+		$("body,html,div").addClass("eye_protect");
+	}
+	//中文编码和函数的对应映射
 	var Functions={
-		"保护色":function(){
-			$("body,html,div").addClass("eye_protect");
-		}
+		"%E4%BF%9D%E6%8A%A4%E8%89%B2":protect_eye
 	};
 
 	if(window.webkitSpeechRecognition){
@@ -24,8 +27,9 @@ $(function(){
 					result+=event.results[i][0].transcript;
 				}
 			}
-			alert(result);
-			Functions[result]();
+			console.log(result+"--"+encodeURI(result));
+			//执行函数
+			Functions[encodeURI(result)]();
 		};
 		rec.onerror=function(event){
 			console.log(event);
